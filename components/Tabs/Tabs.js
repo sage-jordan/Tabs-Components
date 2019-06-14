@@ -25,7 +25,7 @@ class TabLink {
     Array.from(links).forEach( link => {
       link.classList.remove('tabs-link-selected')
     });
-  console.log(links);
+  // console.log(links);
     // Add a class named "tabs-link-selected" to this link
     this.element.classList.add("tabs-link-selected");
   // console.log(this.element);
